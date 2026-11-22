@@ -1,0 +1,29 @@
+scheme_id: "pm_poshan_school_midday_meals"
+name: "PM POSHAN / School Midday Meals"
+level: "central"
+state: "All India"
+category: "education"
+benefit: "Cooked meals on school working days in covered schools"
+official_source: "https://pmposhan.education.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Children enrolled in eligible government/government-aided schools and other covered institutions/classes"
+rules: []
+documents:
+  - "School enrolment/attendance records"
+  - "no separate individual application generally required"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: School administration"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Children enrolled in eligible government/government-aided schools and other covered institutions/classes"
+where_to_apply: "School administration"
+terms_and_conditions: "Benefit is for enrolled children in covered schools/classes on school working days; meal menu and implementation are governed by school/state norms. Usually no separate cash application is made by parents."
+does_not_provide: "School meal service; not cash, employment or WFH support."
+when_it_may_help: "If a child is enrolled in a covered school, confirm meal provision with the school."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Children enrolled in eligible government/government-aided schools and other covered institutions/classes"]
+manual_verification_required: true

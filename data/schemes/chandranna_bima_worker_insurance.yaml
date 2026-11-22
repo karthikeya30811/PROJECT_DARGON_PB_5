@@ -1,0 +1,32 @@
+scheme_id: "chandranna_bima_worker_insurance"
+name: "Chandranna Bima / Worker Insurance"
+level: "state"
+state: "Andhra Pradesh"
+category: "other"
+benefit: "Insurance/accident assistance as per current policy and approved claim rules"
+official_source: "https://ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Registered eligible unorganised worker meeting age, occupation and enrolment requirements; check current policy before relying on benefits"
+rules: []
+documents:
+  - "Aadhaar"
+  - "worker registration/labour card"
+  - "bank passbook"
+  - "nominee details"
+  - "accident/death certificate and medical/legal records for claim"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Labour Department / Grama-Ward Sachivalayam"
+  - "Note the application ID and keep the receipt"
+deadline: "check current policy before relying on benefits"
+deadline_date: null
+notes: "Registered eligible unorganised worker meeting age, occupation and enrolment requirements | check current policy before relying on benefits"
+where_to_apply: "Labour Department / Grama-Ward Sachivalayam"
+terms_and_conditions: "Do not assume enrolment or claim window is open: confirm current scheme/insurance policy and registration status with Labour Department. Age, worker registration, occupation, premium/coverage and claim-deadline conditions apply; claim requires official incident/death/medical proof."
+does_not_provide: "Worker insurance/claim support, not job placement or WFH provision."
+when_it_may_help: "If an eligible registered worker has an accident/death claim, verify current policy and claim deadline immediately."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Registered eligible unorganised worker meeting age, occupation and enrolment requirements"]
+manual_verification_required: true

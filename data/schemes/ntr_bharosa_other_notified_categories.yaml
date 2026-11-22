@@ -1,0 +1,39 @@
+scheme_id: "ntr_bharosa_other_notified_categories"
+name: "NTR Bharosa - Other notified categories"
+level: "state"
+state: "Andhra Pradesh"
+category: "agriculture"
+benefit: "Generally ₹4,000/month; specified severe chronic conditions may receive higher pension"
+official_source: "https://sspensions.ap.gov.in/SSP/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Applicant must fall under notified category and satisfy BPL, AP residence, destitution and category-specific age/occupation/medical rules"
+rules:
+  - id: "state_resident"
+    field: "state"
+    op: "=="
+    value: "Andhra Pradesh"
+    text: "satisfy BPL, AP residence, destitution and category-specific age/occupation/medical rules"
+documents:
+  - "Aadhaar"
+  - "white ration card"
+  - "residence proof"
+  - "occupation/category certificate"
+  - "age proof"
+  - "medical certificate where applicable"
+  - "bank details"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Grama/Ward Sachivalayam"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Applicant must fall under notified category and satisfy BPL, AP residence, destitution and category-specific age/occupation/medical rules"
+where_to_apply: "Grama/Ward Sachivalayam"
+terms_and_conditions: "Applicant must prove the notified occupation/status or medical condition and satisfy residence, household/economic and non-duplication conditions. Age, registration and medical thresholds vary by category; confirm the latest GO."
+does_not_provide: "Category-specific pension; not a general unemployment benefit or WFH job scheme."
+when_it_may_help: "If the applicant belongs to one of the notified vulnerable groups, verify the exact category rules."
+rule_conversion_status: "partial"
+eligibility_source: "dataset eligibility_criteria; curated rules: data/rule_overrides.yaml"
+unresolved_conditions: ["Applicant must fall under notified category", "BPL", "destitution", "category-specific age/occupation/medical rules"]
+manual_verification_required: true

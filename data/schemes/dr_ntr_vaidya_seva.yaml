@@ -1,0 +1,36 @@
+scheme_id: "dr_ntr_vaidya_seva"
+name: "Dr NTR Vaidya Seva"
+level: "state"
+state: "Andhra Pradesh"
+category: "health"
+benefit: "Cashless treatment for listed procedures at empanelled hospitals; current benefit package must be checked"
+official_source: "https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Eligible BPL/white-ration-card family members as per state health database and scheme rules; treatment must be covered and at empanelled facility"
+rules:
+  - id: "ration_card"
+    field: "has_ration_card"
+    op: "bool"
+    value: true
+    text: "BPL/white-ration-card family members"
+documents:
+  - "Aadhaar or accepted identity"
+  - "Rice Card/health beneficiary details"
+  - "medical records/referral documents"
+  - "relevant test reports"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Empanelled hospital Aarogyamitra / NTR Vaidya Seva Trust"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Eligible BPL/white-ration-card family members as per state health database and scheme rules | treatment must be covered and at empanelled facility"
+where_to_apply: "Empanelled hospital Aarogyamitra / NTR Vaidya Seva Trust"
+terms_and_conditions: "Treatment must be included in the active package list and delivered at an empanelled hospital. Beneficiary eligibility must appear in the scheme database; pre-authorisation, referral and package limits may apply. Not every disease, hospital or expense is automatically covered."
+does_not_provide: "Health insurance/treatment support only; no employment or WFH benefit."
+when_it_may_help: "If the issue is an eligible medical treatment cost, check beneficiary and package coverage before admission."
+rule_conversion_status: "partial"
+eligibility_source: "dataset eligibility_criteria; curated rules: data/rule_overrides.yaml"
+unresolved_conditions: ["Eligible BPL/white-ration-card family members as per state health database and scheme rules", "treatment must be covered and at empanelled facility"]
+manual_verification_required: true

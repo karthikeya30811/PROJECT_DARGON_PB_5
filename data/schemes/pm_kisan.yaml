@@ -1,0 +1,38 @@
+scheme_id: "pm_kisan"
+name: "PM-KISAN"
+level: "central"
+state: "All India"
+category: "agriculture"
+benefit: "₹6,000/year in three instalments, subject to eligibility"
+official_source: "https://pmkisan.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Landholding farmer family subject to central exclusion categories; institutional landholders and specified higher-income/professional categories excluded"
+rules:
+  - id: "occupation_farmer"
+    field: "occupation"
+    op: "=="
+    value: "farmer"
+    text: "Landholding farmer family subject to central exclusion categories"
+documents:
+  - "Aadhaar"
+  - "bank account"
+  - "land records"
+  - "mobile number"
+  - "e-KYC"
+  - "farmer registration details"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: PM-KISAN portal / Rythu Seva Kendram"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "institutional landholders and specified higher-income/professional categories excluded"
+where_to_apply: "PM-KISAN portal / Rythu Seva Kendram"
+terms_and_conditions: "Farmer family land records must be correctly seeded and e-KYC completed. Institutional landholders and specified income/professional/government-service categories are excluded. State land-record verification and bank/Aadhaar matching are mandatory."
+does_not_provide: "Central farmer income support; not employment or WFH support."
+when_it_may_help: "If the applicant is an eligible landholding farmer, check PM-KISAN status and e-KYC."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

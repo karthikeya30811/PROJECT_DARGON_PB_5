@@ -1,0 +1,33 @@
+scheme_id: "ap_neighbourhood_workspace_policy_2025_2030"
+name: "AP Neighbourhood Workspace Policy 2025-2030"
+level: "state"
+state: "Andhra Pradesh"
+category: "livelihood"
+benefit: "Policy framework to facilitate professionally managed shared workspaces across mandals, with high-speed internet, reliable power, desks, meeting facilities, digital resources and convergence with skilling/employment programmes."
+official_source: "https://cdn.apchambers.in/gos/1765115770892-AP-Neighbourhood-Workspace-Policy.pdf"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Policy is aimed at remote workers, freelancers, gig-economy participants and small enterprises needing accessible workspace. Individual access, fees, membership rules, facility locations and any concessions depend on implementing agency/operator guidelines; policy approval alone does not create an automatic individual cash entitlement."
+rules: []
+documents:
+  - "For workspace enquiry/membership: identity proof"
+  - "address proof"
+  - "mobile/email"
+  - "work or freelancer profile"
+  - "employer/client or business details if requested by operator"
+  - "payment receipt if a fee applies. Exact documents depend on the workspace operator's notified rules."
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Check IT, Electronics & Communications Department / district implementation announcements for operational Neighbourhood Workspace hubs. Ask the local district administration or designated workspace operator about location, opening date, membership and charges."
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Policy is aimed at remote workers, freelancers, gig-economy participants and small enterprises needing accessible workspace | Individual access, fees, membership rules, facility locations and any concessions depend on implementing agency/operator guidelines | policy approval alone does not create an automatic individual cash entitlement"
+where_to_apply: "Check IT, Electronics & Communications Department / district implementation announcements for operational Neighbourhood Workspace hubs. Ask the local district administration or designated workspace operator about location, opening date, membership and charges."
+terms_and_conditions: "This is a policy to develop shared workspace infrastructure and enable remote work, not a direct individual job or guaranteed free-office entitlement. Access depends on a workspace being operational and its notified membership rules. Fees, subsidies, eligibility, operating hours, internet/electricity facilities and booking rules must be confirmed with the implementing agency. Do not assume every mandal already has a functioning centre."
+does_not_provide: "Does not itself guarantee a WFH job, salary, employer, monthly unemployment allowance, personal laptop or free home broadband. A shared workspace is a place to work remotely; it is not the same as working from one's own home."
+when_it_may_help: "A freelancer, remote employee, gig worker or small business owner who needs reliable internet, power, desk space or meeting facilities near home."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Policy is aimed at remote workers, freelancers, gig-economy participants and small enterprises needing accessible workspace", "Individual access, fees, membership rules, facility locations and any concessions depend on implementing agency/operator guidelines"]
+manual_verification_required: true

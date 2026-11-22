@@ -1,0 +1,40 @@
+scheme_id: "kapu_nestham"
+name: "Kapu Nestham"
+level: "state"
+state: "Andhra Pradesh"
+category: "women"
+benefit: "Earlier guideline: ₹15,000/year for 5 years (total ₹75,000)"
+official_source: "https://kakinada.ap.gov.in/departments/bc-corporation/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Earlier rules: Kapu woman aged 45-60; family income and land limits; no government employee/pensioner in family; other exclusions. Do not assume new applications are open"
+rules:
+  - id: "gender_female"
+    field: "gender"
+    op: "=="
+    value: "female"
+    text: "Earlier rules: Kapu woman aged 45-60"
+documents:
+  - "Aadhaar"
+  - "caste/community certificate"
+  - "age proof"
+  - "income certificate"
+  - "land records"
+  - "bank passbook"
+  - "Rice Card"
+  - "family details"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: BC Welfare Department / Grama-Ward Sachivalayam; confirm current GO"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "family income and land limits | no government employee/pensioner in family | other exclusions | Do not assume new applications are open"
+where_to_apply: "BC Welfare Department / Grama-Ward Sachivalayam; confirm current GO"
+terms_and_conditions: "Historical programme criteria included Kapu woman in the specified age band, family-income/land limits and exclusions for certain government employment/pension or other benefits. Treat as not open unless a current GO/notification confirms fresh applications; old eligibility does not guarantee present entitlement."
+does_not_provide: "Historical women livelihood assistance; not a WFH job guarantee."
+when_it_may_help: "If a Kapu woman seeks livelihood assistance, first confirm whether a fresh intake exists."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

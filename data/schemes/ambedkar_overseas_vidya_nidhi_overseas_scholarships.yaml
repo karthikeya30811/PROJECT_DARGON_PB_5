@@ -1,0 +1,37 @@
+scheme_id: "ambedkar_overseas_vidya_nidhi_overseas_scholarships"
+name: "Ambedkar Overseas Vidya Nidhi / Overseas Scholarships"
+level: "state"
+state: "Andhra Pradesh"
+category: "education"
+benefit: "Financial assistance for eligible overseas study as per current category-wise GO"
+official_source: "https://jnanabhumi.ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Community/category-specific eligibility; admission to approved foreign university/course; academic, age, income and family asset limits as per current notification"
+rules: []
+documents:
+  - "Aadhaar"
+  - "caste certificate"
+  - "income certificate"
+  - "passport"
+  - "visa"
+  - "foreign university admission letter"
+  - "academic transcripts"
+  - "bank details"
+  - "fee structure"
+  - "parent documents"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Department portal / JnanaBhumi / current notification"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Community/category-specific eligibility | admission to approved foreign university/course | academic, age, income and family asset limits as per current notification"
+where_to_apply: "Department portal / JnanaBhumi / current notification"
+terms_and_conditions: "Only apply when a fresh notification is open. Applicant must meet community, income/asset, age, academic-score, admission, course/university and visa conditions in that notification. Funding ceilings, eligible countries/courses and deadlines vary."
+does_not_provide: "Overseas higher-education support, not domestic job or WFH support."
+when_it_may_help: "If the goal is to fund eligible overseas study, check the latest intake notification."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Community/category-specific eligibility", "admission to approved foreign university/course", "academic, age, income and family asset limits as per current notification"]
+manual_verification_required: true

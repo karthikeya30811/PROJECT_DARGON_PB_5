@@ -1,0 +1,35 @@
+scheme_id: "stree_shakti_free_bus_travel"
+name: "Stree Shakti Free Bus Travel"
+level: "state"
+state: "Andhra Pradesh"
+category: "women"
+benefit: "Free travel in specified APSRTC services"
+official_source: "https://apsrtc.ap.gov.in/coverage.php"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Girls, women and transgender persons domiciled in Andhra Pradesh; valid identity proof; only specified bus categories/routes; exclusions apply to AC, luxury and interstate services"
+rules:
+  - id: "gender_female"
+    field: "gender"
+    op: "=="
+    value: "female"
+    text: "Girls, women and transgender persons domiciled in Andhra Pradesh"
+documents:
+  - "Valid AP domicile/identity proof such as Aadhaar"
+  - "voter ID or other accepted ID"
+  - "no separate application generally stated"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Show valid ID and obtain zero-fare ticket on eligible APSRTC service"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "valid identity proof | only specified bus categories/routes | exclusions apply to AC, luxury and interstate services"
+where_to_apply: "Show valid ID and obtain zero-fare ticket on eligible APSRTC service"
+terms_and_conditions: "Benefit applies only to eligible persons and notified APSRTC ordinary/express services and routes. AC/luxury/interstate or other excluded services are not covered; carry accepted identity/domicile proof. No cash payment is made."
+does_not_provide: "Does not provide a job, salary, laptop or WFH facility; it reduces eligible bus travel cost."
+when_it_may_help: "If commuting to work or training is the issue, check route/service eligibility."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

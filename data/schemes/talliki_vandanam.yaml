@@ -1,0 +1,34 @@
+scheme_id: "talliki_vandanam"
+name: "Talliki Vandanam"
+level: "state"
+state: "Andhra Pradesh"
+category: "education"
+benefit: "₹15,000 per eligible child annually; 2025 guidelines specify ₹2,000 school ecosystem deduction"
+official_source: "https://apfinance.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Mother/legal guardian of child studying Classes I-XII in recognised school/junior college in AP; child/family records must validate; 75% attendance condition reported for 2026-27 eligibility; check latest GO"
+rules: []
+documents:
+  - "Mother/guardian Aadhaar"
+  - "child Aadhaar"
+  - "father/guardian Aadhaar as required"
+  - "bank passbook/account"
+  - "rice card/family ID"
+  - "school admission/UDISE details"
+  - "attendance records if requested"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: School / Grama-Ward Sachivalayam; school education verification"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Mother/legal guardian of child studying Classes I-XII in recognised school/junior college in AP | child/family records must validate | 75% attendance condition reported for 2026-27 eligibility | check latest GO"
+where_to_apply: "School / Grama-Ward Sachivalayam; school education verification"
+terms_and_conditions: "Child must be enrolled in a recognised school/junior college in AP and meet attendance/identity validation rules in the applicable year's GO. Only one eligible mother/guardian payment is made for each qualifying child; exclusions and Aadhaar/bank seeding rules apply."
+does_not_provide: "Not a job or WFH scheme; education assistance only."
+when_it_may_help: "If the user's problem is school expenses for a child, check this scheme."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Mother/legal guardian of child studying Classes I-XII in recognised school/junior college in AP", "child/family records must validate", "75% attendance condition reported for 2026-27 eligibility"]
+manual_verification_required: true

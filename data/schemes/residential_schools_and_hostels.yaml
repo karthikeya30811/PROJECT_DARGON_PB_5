@@ -1,0 +1,40 @@
+scheme_id: "residential_schools_and_hostels"
+name: "Residential Schools and Hostels"
+level: "state"
+state: "Andhra Pradesh"
+category: "education"
+benefit: "Free or subsidised education, accommodation, meals, books and related support"
+official_source: "https://jnanabhumi.ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Student from eligible community/category; class/age, income, merit, local quota and seat availability conditions apply"
+rules:
+  - id: "occupation_student"
+    field: "occupation"
+    op: "=="
+    value: "student"
+    text: "Student from eligible community/category"
+documents:
+  - "Aadhaar"
+  - "caste certificate"
+  - "income certificate"
+  - "study/bonafide certificate"
+  - "marks memo"
+  - "parent ID"
+  - "photos"
+  - "health certificate if requested"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Relevant residential school/hostel admission authority / district welfare office"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "class/age, income, merit, local quota and seat availability conditions apply"
+where_to_apply: "Relevant residential school/hostel admission authority / district welfare office"
+terms_and_conditions: "Admission depends on notified community/category, class, age, merit, local reservation, income and seat availability. Continued stay may require attendance, conduct and academic progress. Required certificates must be valid and current."
+does_not_provide: "Education/accommodation support; not a job scheme."
+when_it_may_help: "If a student needs subsidised/free schooling or hostel accommodation, contact the relevant welfare department."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

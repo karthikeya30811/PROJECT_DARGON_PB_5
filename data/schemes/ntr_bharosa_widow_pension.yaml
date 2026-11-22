@@ -1,0 +1,39 @@
+scheme_id: "ntr_bharosa_widow_pension"
+name: "NTR Bharosa - Widow Pension"
+level: "state"
+state: "Andhra Pradesh"
+category: "women"
+benefit: "Generally ₹4,000/month"
+official_source: "https://sspensions.ap.gov.in/SSP/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Eligible widow meeting AP residence, BPL and destitution conditions; age/marital-status and exclusion rules apply"
+rules:
+  - id: "state_resident"
+    field: "state"
+    op: "=="
+    value: "Andhra Pradesh"
+    text: "Eligible widow meeting AP residence, BPL and destitution conditions"
+documents:
+  - "Aadhaar"
+  - "white ration card"
+  - "spouse death certificate"
+  - "age proof"
+  - "residence proof"
+  - "bank details if required"
+  - "photo"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Grama/Ward Sachivalayam"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Eligible widow meeting AP residence, BPL and destitution conditions | age/marital-status and exclusion rules apply"
+where_to_apply: "Grama/Ward Sachivalayam"
+terms_and_conditions: "Applicant must meet the notified widow, residence and economic criteria and not fall under exclusions or duplicate-pension rules. Death certificate and local verification are normally required; exact age rules can differ by category/GO."
+does_not_provide: "Social-security pension; it does not provide employment or WFH."
+when_it_may_help: "If a qualifying widow needs recurring social assistance, check this pension."
+rule_conversion_status: "partial"
+eligibility_source: "dataset eligibility_criteria; curated rules: data/rule_overrides.yaml"
+unresolved_conditions: ["BPL and destitution conditions", "age/marital-status and exclusion rules apply"]
+manual_verification_required: true

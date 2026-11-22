@@ -1,0 +1,35 @@
+scheme_id: "construction_workers_welfare_board_benefits"
+name: "Construction Workers Welfare Board Benefits"
+level: "state"
+state: "Andhra Pradesh"
+category: "other"
+benefit: "Welfare benefits such as accident, death, maternity or education assistance as notified"
+official_source: "https://ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Construction worker registered with AP Building and Other Construction Workers Welfare Board; contribution/renewal and age rules apply"
+rules: []
+documents:
+  - "Aadhaar"
+  - "worker registration card"
+  - "age proof"
+  - "residence proof"
+  - "bank passbook"
+  - "employer/worksite proof"
+  - "nominee details"
+  - "claim-specific certificates"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Labour Department / BOCW Welfare Board"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Construction worker registered with AP Building and Other Construction Workers Welfare Board | contribution/renewal and age rules apply"
+where_to_apply: "Labour Department / BOCW Welfare Board"
+terms_and_conditions: "Worker must be registered with the AP BOCW Board and satisfy age, renewal/contribution and qualifying work requirements. Each benefit has separate qualifying period, event, amount and filing deadline; claim documents must be submitted within time."
+does_not_provide: "Welfare grants/insurance for registered construction workers; not WFH jobs."
+when_it_may_help: "If the applicant is a registered construction worker, check the board's specific benefit and claim deadline."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Construction worker registered with AP Building and Other Construction Workers Welfare Board", "contribution/renewal and age rules apply"]
+manual_verification_required: true

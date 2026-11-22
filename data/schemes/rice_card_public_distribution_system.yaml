@@ -1,0 +1,33 @@
+scheme_id: "rice_card_public_distribution_system"
+name: "Rice Card / Public Distribution System"
+level: "central"
+state: "All India"
+category: "housing"
+benefit: "Subsidised/free food grains as per NFSA and state allocation"
+official_source: "https://vswsonline.ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Household meeting BPL/priority household eligibility and state income/asset criteria; exclusion rules apply"
+rules: []
+documents:
+  - "Aadhaar numbers of family members"
+  - "address proof"
+  - "income certificate"
+  - "age proof of applicant"
+  - "existing family/rice card details"
+  - "spouse death certificate if applicable"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Grama/Ward Sachivalayam / Civil Supplies / MeeSeva"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Household meeting BPL/priority household eligibility and state income/asset criteria | exclusion rules apply"
+where_to_apply: "Grama/Ward Sachivalayam / Civil Supplies / MeeSeva"
+terms_and_conditions: "Household must meet AP NFSA/state income and asset criteria and pass member/Aadhaar and residence verification. Duplicate cards, ineligible assets/income or incorrect family details can cause rejection/cancellation. Entitlement depends on current allocation."
+does_not_provide: "Subsidised food grains; not employment, cash salary or WFH support."
+when_it_may_help: "If monthly food expenses are the issue, check rice-card eligibility at the Sachivalayam."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Household meeting BPL/priority household eligibility and state income/asset criteria"]
+manual_verification_required: true

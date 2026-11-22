@@ -1,0 +1,13 @@
+/* Global styles: Tailwind layers, large base text, and a visible focus outline. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 18px;
+}
+
+:focus-visible {
+  outline: 3px solid #1d4ed8;
+  outline-offset: 2px;
+}

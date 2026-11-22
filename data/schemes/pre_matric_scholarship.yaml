@@ -1,0 +1,44 @@
+scheme_id: "pre_matric_scholarship"
+name: "Pre-Matric Scholarship"
+level: "central"
+state: "All India"
+category: "education"
+benefit: "Scholarship support as per class/category and current notification"
+official_source: "https://jnanabhumi.ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Eligible school student from notified SC/ST/BC/minority or other target group; income, attendance and school recognition conditions apply"
+rules:
+  - id: "category_eligible"
+    field: "category"
+    op: "in"
+    value: ["SC", "ST", "BC", "MINORITY"]
+    text: "Eligible school student from notified SC/ST/BC/minority or other target group"
+  - id: "occupation_student"
+    field: "occupation"
+    op: "=="
+    value: "student"
+    text: "Eligible school student from notified SC/ST/BC/minority or other target group"
+documents:
+  - "Aadhaar"
+  - "caste/community certificate"
+  - "income certificate"
+  - "bank details"
+  - "school bonafide"
+  - "previous marks"
+  - "parent details"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: School / JnanaBhumi or notified portal"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "income, attendance and school recognition conditions apply"
+where_to_apply: "School / JnanaBhumi or notified portal"
+terms_and_conditions: "Student must belong to a notified category, study in a covered school/class and meet income, attendance and other annual-notification conditions. Application must be verified by school and department; duplicate benefits are not allowed."
+does_not_provide: "School scholarship only; not WFH or employment support."
+when_it_may_help: "If school expenses are the issue, check the category-specific scholarship."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

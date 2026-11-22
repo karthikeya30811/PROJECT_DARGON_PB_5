@@ -1,0 +1,36 @@
+scheme_id: "sc_st_bc_corporation_self_employment_assistance"
+name: "SC/ST/BC Corporation Self-Employment Assistance"
+level: "state"
+state: "Andhra Pradesh"
+category: "other"
+benefit: "Bank-linked subsidy/financial assistance, skill training or livelihood support as per current unit-cost guidelines"
+official_source: "https://apsccorporation.ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Applicant from notified community; age, income, family asset, project viability and one-benefit-per-family conditions as per current notification"
+rules: []
+documents:
+  - "Aadhaar"
+  - "caste certificate"
+  - "income certificate"
+  - "residence proof"
+  - "bank passbook"
+  - "project report/quotation"
+  - "education/skill certificates"
+  - "land/rent proof"
+  - "photos"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Concerned Welfare Corporation / district office / current online portal"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Applicant from notified community | age, income, family asset, project viability and one-benefit-per-family conditions as per current notification"
+where_to_apply: "Concerned Welfare Corporation / district office / current online portal"
+terms_and_conditions: "Usually requires an open district/corporation notification, eligible community, age/income limits, viable business/project, own contribution or bank loan where required, and no disqualifying prior subsidy/default. Selection is not automatic; subsidy amounts and unit costs vary by notification."
+does_not_provide: "May support self-employment/business, but is not a salaried WFH job and does not guarantee customers or income."
+when_it_may_help: "If the person wants to start a home-based business, ask the relevant corporation whether the current intake permits that activity and obtain written sanction terms."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Applicant from notified community", "age, income, family asset, project viability and one-benefit-per-family conditions as per current notification"]
+manual_verification_required: true

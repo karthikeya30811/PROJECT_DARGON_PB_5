@@ -1,0 +1,33 @@
+scheme_id: "pmay_g_rural_housing"
+name: "PMAY-G Rural Housing"
+level: "central"
+state: "All India"
+category: "housing"
+benefit: "Rural house assistance as per current unit cost and convergence rules"
+official_source: "https://pmayg.nic.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Household identified through approved rural housing deprivation/selection list; exclusions and verification apply"
+rules: []
+documents:
+  - "Aadhaar"
+  - "job card if available"
+  - "bank passbook"
+  - "land/house-site documents if applicable"
+  - "household details"
+  - "approved beneficiary listing"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Gram Panchayat / Mandal office / Rural Development department"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Household identified through approved rural housing deprivation/selection list | exclusions and verification apply"
+where_to_apply: "Gram Panchayat / Mandal office / Rural Development department"
+terms_and_conditions: "Beneficiary selection is from approved rural housing deprivation/Awaas+ lists and subject to exclusion checks, Gram Sabha/department verification and available sanction. Applicants cannot assume that submitting a form guarantees selection."
+does_not_provide: "Rural housing assistance, not a job or WFH scheme."
+when_it_may_help: "If the household is rural and houseless or lives in an eligible kutcha house, verify its approved beneficiary-list status."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Household identified through approved rural housing deprivation/selection list"]
+manual_verification_required: true

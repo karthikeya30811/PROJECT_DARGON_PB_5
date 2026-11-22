@@ -1,0 +1,45 @@
+scheme_id: "bc_welfare_post_matric_scholarship_fee_reimbursement"
+name: "BC Welfare Post-Matric Scholarship / Fee Reimbursement"
+level: "state"
+state: "Andhra Pradesh"
+category: "education"
+benefit: "RTF/MTF support according to eligibility and sanction"
+official_source: "https://tirupati.ap.gov.in/departments/bc-welfare/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "BC/EBC/Kapu student in eligible course/institution; income and attendance criteria apply"
+rules:
+  - id: "category_eligible"
+    field: "category"
+    op: "in"
+    value: ["BC"]
+    text: "BC/EBC/Kapu student in eligible course/institution"
+  - id: "occupation_student"
+    field: "occupation"
+    op: "=="
+    value: "student"
+    text: "BC/EBC/Kapu student in eligible course/institution"
+documents:
+  - "Aadhaar"
+  - "integrated caste certificate"
+  - "income certificate"
+  - "bank details"
+  - "admission/bonafide"
+  - "marks memos"
+  - "fee details"
+  - "study certificates"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: JnanaBhumi / District BC Welfare Office"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "income and attendance criteria apply"
+where_to_apply: "JnanaBhumi / District BC Welfare Office"
+terms_and_conditions: "Applicant must meet BC/EBC/Kapu category, income ceiling, eligible course/institution, attendance and academic rules in the current notification. Aadhaar, caste/income certificates and college verification must match; duplicate scholarship claims are restricted."
+does_not_provide: "Fee/maintenance support for study; not salary or WFH placement."
+when_it_may_help: "If eligible BC/EBC/Kapu student fees are the issue, apply through the current scholarship process."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

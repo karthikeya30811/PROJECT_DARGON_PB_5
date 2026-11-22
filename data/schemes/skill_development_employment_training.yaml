@@ -1,0 +1,33 @@
+scheme_id: "skill_development_employment_training"
+name: "Skill Development / Employment Training"
+level: "state"
+state: "Andhra Pradesh"
+category: "other"
+benefit: "Free or subsidised skill training, certification and placement support where offered"
+official_source: "https://ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Age, education, residence and course-specific eligibility; selection and seat availability apply"
+rules: []
+documents:
+  - "Aadhaar"
+  - "education certificates"
+  - "residence proof"
+  - "photo"
+  - "mobile/email"
+  - "caste/income certificate if course requires"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: AP Skill Development / district employment or training centre"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Age, education, residence and course-specific eligibility | selection and seat availability apply"
+where_to_apply: "AP Skill Development / district employment or training centre"
+terms_and_conditions: "Eligibility varies by course: age, education, AP residence, category and placement-partner rules may apply. Training seat does not guarantee a job, salary, remote role or placement. Verify course accreditation, fees, stipend, placement conditions and whether the course is currently funded before enrolling."
+does_not_provide: "Can improve employability; WFH jobs are not guaranteed. Ask specifically for remote/hybrid placement options."
+when_it_may_help: "If the goal is a job, register with the state skill/employment channels and request current vacancies with work mode stated in writing."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Age, education, residence and course-specific eligibility", "selection and seat availability apply"]
+manual_verification_required: true

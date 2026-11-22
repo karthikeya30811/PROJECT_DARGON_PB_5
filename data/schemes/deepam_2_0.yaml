@@ -1,0 +1,38 @@
+scheme_id: "deepam_2_0"
+name: "Deepam 2.0"
+level: "state"
+state: "Andhra Pradesh"
+category: "housing"
+benefit: "Up to 3 free domestic LPG cylinders per eligible household annually"
+official_source: "https://www.pmuy.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Eligible AP household with valid Rice Card and domestic LPG connection; KYC and Aadhaar/bank linkage required; check current cycle rules"
+rules:
+  - id: "ration_card"
+    field: "has_ration_card"
+    op: "bool"
+    value: true
+    text: "Eligible AP household with valid Rice Card"
+documents:
+  - "Rice card"
+  - "Aadhaar of consumer"
+  - "LPG consumer number/connection details"
+  - "bank passbook/account"
+  - "e-KYC"
+  - "mobile number"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: LPG distributor / online LPG booking / Grama-Ward Sachivalayam assistance"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Eligible AP household with valid Rice Card and domestic LPG connection | KYC and Aadhaar/bank linkage required | check current cycle rules"
+where_to_apply: "LPG distributor / online LPG booking / Grama-Ward Sachivalayam assistance"
+terms_and_conditions: "Household must satisfy current state eligibility and have a valid domestic LPG connection with completed KYC/Aadhaar/bank linkage. Cylinder booking, delivery and reimbursement/credit steps must follow the current cycle; commercial cylinders are excluded."
+does_not_provide: "Not employment support; LPG household-cost assistance."
+when_it_may_help: "If domestic cooking-gas expense is the issue, check household eligibility."
+rule_conversion_status: "partial"
+eligibility_source: "dataset eligibility_criteria; curated rules: data/rule_overrides.yaml"
+unresolved_conditions: ["Eligible AP household with valid Rice Card and domestic LPG connection", "KYC and Aadhaar/bank linkage required"]
+manual_verification_required: true

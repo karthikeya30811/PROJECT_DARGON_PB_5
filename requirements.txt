@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pyyaml
+python-multipart
+pytest
+httpx
+torch
+torchaudio
+transformers
+sentencepiece
+soundfile
+huggingface_hub

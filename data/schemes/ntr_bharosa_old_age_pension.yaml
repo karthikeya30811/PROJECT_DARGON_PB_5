@@ -1,0 +1,49 @@
+scheme_id: "ntr_bharosa_old_age_pension"
+name: "NTR Bharosa - Old Age Pension"
+level: "state"
+state: "Andhra Pradesh"
+category: "other"
+benefit: "Generally ₹4,000/month; category-specific rates differ"
+official_source: "https://sspensions.ap.gov.in/SSP/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "AP local resident; BPL/white ration card family; age 60+; destitute; not covered by another pension; income/asset and exclusion rules apply"
+rules:
+  - id: "state_resident"
+    field: "state"
+    op: "=="
+    value: "Andhra Pradesh"
+    text: "AP local resident"
+  - id: "age_min"
+    field: "age"
+    op: ">="
+    value: 60
+    text: "age 60+"
+  - id: "ration_card"
+    field: "has_ration_card"
+    op: "bool"
+    value: true
+    text: "BPL/white ration card family"
+documents:
+  - "Aadhaar"
+  - "white ration card"
+  - "age proof"
+  - "residence proof"
+  - "bank details if required"
+  - "photo"
+  - "self-declaration"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Grama/Ward Sachivalayam"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "AP local resident | BPL/white ration card family | age 60+ | destitute | not covered by another pension | income/asset and exclusion rules apply"
+where_to_apply: "Grama/Ward Sachivalayam"
+terms_and_conditions: "Applicant must meet the notified age, residence, household/economic and non-duplication rules. Government employee/pensioner and other exclusion rules may apply to the applicant/family. Local verification and beneficiary approval are required."
+does_not_provide: "Monthly social-security pension, not a job or WFH allowance."
+when_it_may_help: "If an eligible senior citizen has no regular income, check this pension."
+rule_conversion_status: "partial"
+eligibility_source: "dataset eligibility_criteria; curated rules: data/rule_overrides.yaml"
+unresolved_conditions: ["BPL/white ration card family", "destitute", "not covered by another pension", "income/asset and exclusion rules apply"]
+manual_verification_required: true

@@ -1,0 +1,39 @@
+scheme_id: "annadata_sukhibhava_pm_kisan"
+name: "Annadata Sukhibhava-PM Kisan"
+level: "central"
+state: "All India"
+category: "agriculture"
+benefit: "₹20,000 per eligible farmer family per year including PM-KISAN component; landless cultivators may be covered under state component per scheme memo"
+official_source: "https://annadathasukhibhava.ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Eligible farmer family owning cultivable land / RoFR cultivator; landless cultivator eligibility as per AP rules; PM-KISAN exclusions apply to central component; field verification required"
+rules:
+  - id: "occupation_farmer"
+    field: "occupation"
+    op: "=="
+    value: "farmer"
+    text: "Eligible farmer family owning cultivable land / RoFR cultivator"
+documents:
+  - "Aadhaar"
+  - "bank passbook"
+  - "land passbook/1-B/adangal or RoFR title"
+  - "e-crop details"
+  - "mobile number"
+  - "farmer/family details"
+  - "caste/tribal documents if relevant"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Village Agriculture Assistant / Rythu Seva Kendram / Grama Sachivalayam"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "landless cultivator eligibility as per AP rules | PM-KISAN exclusions apply to central component | field verification required"
+where_to_apply: "Village Agriculture Assistant / Rythu Seva Kendram / Grama Sachivalayam"
+terms_and_conditions: "Farmer and land/tenant-cultivator records must pass state verification. PM-KISAN exclusions apply to the central share; incorrect land, Aadhaar or bank data can stop instalments. Amounts and inclusion of tenant/landless cultivators depend on current AP GO."
+does_not_provide: "Not employment or WFH support; farmer income assistance."
+when_it_may_help: "If the user is an eligible farmer family needing seasonal income support, check this scheme."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

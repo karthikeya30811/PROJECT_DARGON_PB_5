@@ -1,0 +1,33 @@
+scheme_id: "fishermen_bharosa_fishing_ban_relief"
+name: "Fishermen Bharosa / Fishing Ban Relief"
+level: "state"
+state: "Andhra Pradesh"
+category: "agriculture"
+benefit: "Financial assistance during notified fishing ban period; amount and rules per current GO"
+official_source: "https://ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Registered eligible marine fishing family/worker in AP; fishing vessel/occupation and registration conditions apply"
+rules: []
+documents:
+  - "Aadhaar"
+  - "fisherfolk identity/registration card"
+  - "bank passbook"
+  - "boat/vessel registration where applicable"
+  - "Rice Card"
+  - "family details"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Fisheries Department / Village Fisheries Assistant / Sachivalayam"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Registered eligible marine fishing family/worker in AP | fishing vessel/occupation and registration conditions apply"
+where_to_apply: "Fisheries Department / Village Fisheries Assistant / Sachivalayam"
+terms_and_conditions: "Only registered eligible fishing households/workers covered by the notified fishing-ban period and local marine-fisheries rules qualify. Aadhaar, fisher registration, vessel/occupation and bank records must be verified; inland fisheries may have different benefits."
+does_not_provide: "Seasonal fisher livelihood relief; not a general job or WFH scheme."
+when_it_may_help: "If the applicant is an eligible marine fisher affected by the ban period, check Fisheries Department registration."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Registered eligible marine fishing family/worker in AP", "fishing vessel/occupation and registration conditions apply"]
+manual_verification_required: true

@@ -1,0 +1,41 @@
+scheme_id: "post_matric_scholarship_rtf_mtf"
+name: "Post-Matric Scholarship - RTF/MTF"
+level: "state"
+state: "Andhra Pradesh"
+category: "education"
+benefit: "Tuition fee reimbursement (RTF) and maintenance support (MTF), as sanctioned"
+official_source: "https://jnanabhumi.ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Eligible AP resident student in recognised post-matric course; community, income, attendance, institution and other rules apply; no duplicate scholarship"
+rules:
+  - id: "occupation_student"
+    field: "occupation"
+    op: "=="
+    value: "student"
+    text: "Eligible AP resident student in recognised post-matric course"
+documents:
+  - "Aadhaar"
+  - "caste/community certificate"
+  - "income certificate"
+  - "bank account"
+  - "SSC/intermediate marks"
+  - "bonafide/admission details"
+  - "fee receipt"
+  - "study certificates"
+  - "hostel details if applicable"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: JnanaBhumi portal / college scholarship section"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "community, income, attendance, institution and other rules apply | no duplicate scholarship"
+where_to_apply: "JnanaBhumi portal / college scholarship section"
+terms_and_conditions: "Must be in an eligible post-matric course/institution and satisfy the current community, family-income, attendance, academic progression and Aadhaar/bank validation rules. Duplicate scholarships, false declarations and unauthorised institutions can lead to rejection/recovery."
+does_not_provide: "Education fee/maintenance support, not salary or job placement."
+when_it_may_help: "If college fees or maintenance costs are the problem, check the current JnanaBhumi notification."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

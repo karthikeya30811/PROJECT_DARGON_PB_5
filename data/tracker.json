@@ -1,0 +1,18 @@
+[
+  {
+    "user_id": "bcdcc214-eb86-42d9-a108-5668c8310bdf",
+    "scheme_id": "residential_schools_and_hostels",
+    "status": "Applied",
+    "application_id": "5768915235406402",
+    "applied_on": "2026-08-14",
+    "updated_at": "2026-11-22T07:19:55Z"
+  },
+  {
+    "user_id": "bcdcc214-eb86-42d9-a108-5668c8310bdf",
+    "scheme_id": "post_matric_scholarship_rtf_mtf",
+    "status": "Documents Ready",
+    "application_id": "NA",
+    "applied_on": "2026-11-22",
+    "updated_at": "2026-11-22T17:03:06Z"
+  }
+]

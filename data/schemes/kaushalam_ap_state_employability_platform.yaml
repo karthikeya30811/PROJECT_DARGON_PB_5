@@ -1,0 +1,36 @@
+scheme_id: "kaushalam_ap_state_employability_platform"
+name: "Kaushalam - AP State Employability Platform"
+level: "state"
+state: "Andhra Pradesh"
+category: "livelihood"
+benefit: "Free candidate registration, skill assessment through local secretariats, employer matching, district placement drives and access to partner job platforms. Job openings and placement numbers change over time."
+official_source: "https://kaushalam.ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Job seekers in Andhra Pradesh can register; employers set role-specific education, skills, experience, age and location requirements. A registration or assessment does not guarantee selection, salary or placement. The official platform describes services as free."
+rules: []
+documents:
+  - "Aadhaar or accepted ID"
+  - "active mobile number"
+  - "email"
+  - "AP address/residence details"
+  - "education certificates/marksheets"
+  - "resume"
+  - "skill/certification details"
+  - "experience details if any"
+  - "bank details only if a specific employer/onboarding process legitimately requires them."
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Register as a candidate on the official Kaushalam platform or seek help at the Village/Ward Secretariat. Complete profile and skill assessment; monitor matching and interview/placement drives."
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Job seekers in Andhra Pradesh can register | employers set role-specific education, skills, experience, age and location requirements | A registration or assessment does not guarantee selection, salary or placement | The official platform describes services as free"
+where_to_apply: "Register as a candidate on the official Kaushalam platform or seek help at the Village/Ward Secretariat. Complete profile and skill assessment; monitor matching and interview/placement drives."
+terms_and_conditions: "Use only the official kaushalam.ap.gov.in website. Registration, assessment and placement-drive participation are described as free; do not pay agents. Employer defines eligibility for each vacancy. Candidate must provide accurate education, identity and skill details, attend assessments/interviews and satisfy employer verification. Selection depends on vacancy, competition and employer decision. Confirm whether each role is WFH, hybrid or office-based directly in the job description/offer."
+does_not_provide: "It is not a guaranteed government job, unemployment allowance, fixed salary, laptop/internet grant or automatic WFH placement. WFH depends on the employer and the particular vacancy."
+when_it_may_help: "A job seeker in AP who wants skills assessed and wants to be matched with companies hiring through online recruitment or district placement drives."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Job seekers in Andhra Pradesh can register", "employers set role-specific education, skills, experience, age and location requirements"]
+manual_verification_required: true

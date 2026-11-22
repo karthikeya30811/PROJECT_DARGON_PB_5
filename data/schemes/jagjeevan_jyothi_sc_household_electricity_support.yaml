@@ -1,0 +1,37 @@
+scheme_id: "jagjeevan_jyothi_sc_household_electricity_support"
+name: "Jagjeevan Jyothi - SC Household Electricity Support"
+level: "state"
+state: "Andhra Pradesh"
+category: "housing"
+benefit: "Free electricity up to 200 units/month as described by district welfare source"
+official_source: "https://kadapa.ap.gov.in/social-welfare/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Eligible SC household electricity consumer within sanctioned consumption and connection rules"
+rules:
+  - id: "category_eligible"
+    field: "category"
+    op: "in"
+    value: ["SC"]
+    text: "Eligible SC household electricity consumer within sanctioned consumption and connection rules"
+documents:
+  - "SC caste certificate or linked beneficiary database"
+  - "Aadhaar"
+  - "electricity service number/bill"
+  - "Rice Card"
+  - "residence proof"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: APSPDCL/APEPDCL utility office / Grama Sachivalayam"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: ""
+where_to_apply: "APSPDCL/APEPDCL utility office / Grama Sachivalayam"
+terms_and_conditions: "Benefit depends on the current government order, eligible SC household/service connection and monthly consumption ceiling. Consumer/service details and community/household verification must match; excess consumption or ineligible connection may not receive full waiver."
+does_not_provide: "Electricity-bill relief only; not a job or WFH scheme."
+when_it_may_help: "If an eligible SC household's domestic electricity bill is the problem, verify current DISCOM implementation."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

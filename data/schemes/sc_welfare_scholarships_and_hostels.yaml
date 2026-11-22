@@ -1,0 +1,44 @@
+scheme_id: "sc_welfare_scholarships_and_hostels"
+name: "SC Welfare Scholarships and Hostels"
+level: "state"
+state: "Andhra Pradesh"
+category: "education"
+benefit: "Pre/post-matric scholarships, fee reimbursement, hostel facilities and other notified support"
+official_source: "https://tirupati.ap.gov.in/social-welfare/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "SC student meeting course/class, income, attendance, institution and other scheme criteria"
+rules:
+  - id: "category_eligible"
+    field: "category"
+    op: "in"
+    value: ["SC"]
+    text: "SC student meeting course/class, income, attendance, institution and other scheme criteria"
+  - id: "occupation_student"
+    field: "occupation"
+    op: "=="
+    value: "student"
+    text: "SC student meeting course/class, income, attendance, institution and other scheme criteria"
+documents:
+  - "Aadhaar"
+  - "SC caste certificate"
+  - "income certificate"
+  - "bank details"
+  - "study/bonafide"
+  - "marks memos"
+  - "admission and fee details"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: JnanaBhumi / District Social Welfare Office"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: ""
+where_to_apply: "JnanaBhumi / District Social Welfare Office"
+terms_and_conditions: "SC status, course/class, family income, attendance, institution recognition and annual application deadline apply. Hostel admission depends on vacancies and local rules. Incomplete or mismatched certificates can delay/reject benefits."
+does_not_provide: "Education and hostel support; not employment or WFH support."
+when_it_may_help: "If SC student education or hostel expenses are the issue, contact Social Welfare/JnanaBhumi."
+rule_conversion_status: "converted"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: []
+manual_verification_required: false

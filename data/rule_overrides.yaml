@@ -1,0 +1,178 @@
+# Curated rules and unresolved conditions for the 20 schemes whose eligibility_criteria
+# produce zero rules in scripts/extract_schemes.py.
+# Every text fragment is verbatim from the eligibility_criteria text (scratch/criteria_report.md).
+# Only explicit conditions are listed. Nothing here is inferred or invented.
+schemes:
+  talliki_vandanam:
+    unresolved:
+      - "Mother/legal guardian of child studying Classes I-XII in recognised school/junior college in AP"
+      - "child/family records must validate"
+      - "75% attendance condition reported for 2026-27 eligibility"
+    manual_verification_required: true
+
+  deepam_2_0:
+    rules:
+      - id: ration_card
+        field: has_ration_card
+        op: bool
+        value: true
+        text: "Eligible AP household with valid Rice Card"
+    unresolved:
+      - "Eligible AP household with valid Rice Card and domestic LPG connection"
+      - "KYC and Aadhaar/bank linkage required"
+    manual_verification_required: true
+
+  ntr_bharosa_old_age_pension:
+    rules:
+      - id: state_resident
+        field: state
+        op: "=="
+        value: "Andhra Pradesh"
+        text: "AP local resident"
+      - id: age_min
+        field: age
+        op: ">="
+        value: 60
+        text: "age 60+"
+      - id: ration_card
+        field: has_ration_card
+        op: bool
+        value: true
+        text: "BPL/white ration card family"
+    unresolved:
+      - "BPL/white ration card family"
+      - "destitute"
+      - "not covered by another pension"
+      - "income/asset and exclusion rules apply"
+    manual_verification_required: true
+
+  ntr_bharosa_widow_pension:
+    rules:
+      - id: state_resident
+        field: state
+        op: "=="
+        value: "Andhra Pradesh"
+        text: "Eligible widow meeting AP residence, BPL and destitution conditions"
+    unresolved:
+      - "BPL and destitution conditions"
+      - "age/marital-status and exclusion rules apply"
+    manual_verification_required: true
+
+  ntr_bharosa_disability_pension:
+    rules:
+      - id: state_resident
+        field: state
+        op: "=="
+        value: "Andhra Pradesh"
+        text: "Eligible AP resident with prescribed disability percentage/certification"
+      - id: disability
+        field: has_disability
+        op: bool
+        value: true
+        text: "prescribed disability percentage/certification"
+    unresolved:
+      - "prescribed disability percentage/certification"
+      - "BPL and other scheme conditions apply"
+    manual_verification_required: true
+
+  ntr_bharosa_other_notified_categories:
+    rules:
+      - id: state_resident
+        field: state
+        op: "=="
+        value: "Andhra Pradesh"
+        text: "satisfy BPL, AP residence, destitution and category-specific age/occupation/medical rules"
+    unresolved:
+      - "Applicant must fall under notified category"
+      - "BPL"
+      - "destitution"
+      - "category-specific age/occupation/medical rules"
+    manual_verification_required: true
+
+  dr_ntr_vaidya_seva:
+    rules:
+      - id: ration_card
+        field: has_ration_card
+        op: bool
+        value: true
+        text: "BPL/white-ration-card family members"
+    unresolved:
+      - "Eligible BPL/white-ration-card family members as per state health database and scheme rules"
+      - "treatment must be covered and at empanelled facility"
+    manual_verification_required: true
+
+  ambedkar_overseas_vidya_nidhi_overseas_scholarships:
+    unresolved:
+      - "Community/category-specific eligibility"
+      - "admission to approved foreign university/course"
+      - "academic, age, income and family asset limits as per current notification"
+    manual_verification_required: true
+
+  pmay_u_2_0_housing:
+    unresolved:
+      - "Eligible urban household meeting scheme income criteria"
+      - "not owning a pucca house anywhere in India, subject to vertical-specific rules"
+    manual_verification_required: true
+
+  pmay_g_rural_housing:
+    unresolved:
+      - "Household identified through approved rural housing deprivation/selection list"
+    manual_verification_required: true
+
+  rice_card_public_distribution_system:
+    unresolved:
+      - "Household meeting BPL/priority household eligibility and state income/asset criteria"
+    manual_verification_required: true
+
+  sc_st_bc_corporation_self_employment_assistance:
+    unresolved:
+      - "Applicant from notified community"
+      - "age, income, family asset, project viability and one-benefit-per-family conditions as per current notification"
+    manual_verification_required: true
+
+  fishermen_bharosa_fishing_ban_relief:
+    unresolved:
+      - "Registered eligible marine fishing family/worker in AP"
+      - "fishing vessel/occupation and registration conditions apply"
+    manual_verification_required: true
+
+  pm_poshan_school_midday_meals:
+    unresolved:
+      - "Children enrolled in eligible government/government-aided schools and other covered institutions/classes"
+    manual_verification_required: true
+
+  chandranna_bima_worker_insurance:
+    unresolved:
+      - "Registered eligible unorganised worker meeting age, occupation and enrolment requirements"
+    manual_verification_required: true
+
+  construction_workers_welfare_board_benefits:
+    unresolved:
+      - "Construction worker registered with AP Building and Other Construction Workers Welfare Board"
+      - "contribution/renewal and age rules apply"
+    manual_verification_required: true
+
+  skill_development_employment_training:
+    unresolved:
+      - "Age, education, residence and course-specific eligibility"
+      - "selection and seat availability apply"
+    manual_verification_required: true
+
+  ntr_videsi_vidyadharana_overseas_education_support:
+    unresolved:
+      - "Community-specific eligibility"
+      - "foreign university admission"
+      - "academic, age, income and asset criteria under current notification"
+    manual_verification_required: true
+
+  kaushalam_ap_state_employability_platform:
+    unresolved:
+      - "Job seekers in Andhra Pradesh can register"
+      - "employers set role-specific education, skills, experience, age and location requirements"
+    manual_verification_required: true
+
+  ap_neighbourhood_workspace_policy_2025_2030:
+    unresolved:
+      - "Policy is aimed at remote workers, freelancers, gig-economy participants and small enterprises needing accessible workspace"
+      - "Individual access, fees, membership rules, facility locations and any concessions depend on implementing agency/operator guidelines"
+    manual_verification_required: true

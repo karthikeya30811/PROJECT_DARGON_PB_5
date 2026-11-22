@@ -1,0 +1,43 @@
+scheme_id: "ntr_bharosa_disability_pension"
+name: "NTR Bharosa - Disability Pension"
+level: "state"
+state: "Andhra Pradesh"
+category: "other"
+benefit: "Generally ₹6,000/month; full disability / specified conditions may qualify for higher rate"
+official_source: "https://sspensions.ap.gov.in/SSP/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Eligible AP resident with prescribed disability percentage/certification; BPL and other scheme conditions apply"
+rules:
+  - id: "state_resident"
+    field: "state"
+    op: "=="
+    value: "Andhra Pradesh"
+    text: "Eligible AP resident with prescribed disability percentage/certification"
+  - id: "disability"
+    field: "has_disability"
+    op: "bool"
+    value: true
+    text: "prescribed disability percentage/certification"
+documents:
+  - "Aadhaar"
+  - "white ration card"
+  - "SADAREM/disability certificate"
+  - "residence proof"
+  - "bank details if required"
+  - "photo"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Grama/Ward Sachivalayam / disability assessment process"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Eligible AP resident with prescribed disability percentage/certification | BPL and other scheme conditions apply"
+where_to_apply: "Grama/Ward Sachivalayam / disability assessment process"
+terms_and_conditions: "Applicant needs a valid prescribed disability assessment/certificate and must meet residence, household/economic and other notified rules. Disability percentage/category determines eligibility and pension rate; verification and non-duplication rules apply."
+does_not_provide: "Disability pension, not a job placement or WFH grant."
+when_it_may_help: "If disability affects income or work capacity, check pension eligibility and separately seek accessible jobs/skill support."
+rule_conversion_status: "partial"
+eligibility_source: "dataset eligibility_criteria; curated rules: data/rule_overrides.yaml"
+unresolved_conditions: ["prescribed disability percentage/certification", "BPL and other scheme conditions apply"]
+manual_verification_required: true

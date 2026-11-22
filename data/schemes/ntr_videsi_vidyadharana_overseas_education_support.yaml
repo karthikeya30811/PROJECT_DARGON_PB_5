@@ -1,0 +1,36 @@
+scheme_id: "ntr_videsi_vidyadharana_overseas_education_support"
+name: "NTR Videsi Vidyadharana / Overseas Education Support"
+level: "state"
+state: "Andhra Pradesh"
+category: "education"
+benefit: "Overseas higher education financial support as per current department GO"
+official_source: "https://jnanabhumi.ap.gov.in/"
+last_verified: null
+verified_by: "dataset: AP_Government_Schemes_Eligibility_Documents_2026.xlsx"
+criteria_text: "Community-specific eligibility; foreign university admission; academic, age, income and asset criteria under current notification"
+rules: []
+documents:
+  - "Aadhaar"
+  - "caste/minority certificate"
+  - "income certificate"
+  - "passport"
+  - "visa"
+  - "admission letter"
+  - "marks memos"
+  - "bank details"
+  - "fee estimate"
+steps:
+  - "Gather the documents listed above"
+  - "Apply: Concerned welfare department / current scholarship portal"
+  - "Note the application ID and keep the receipt"
+deadline: null
+deadline_date: null
+notes: "Community-specific eligibility | foreign university admission | academic, age, income and asset criteria under current notification"
+where_to_apply: "Concerned welfare department / current scholarship portal"
+terms_and_conditions: "Apply only against a current department notification. Category, income/asset, age, academic, admission, course/university, visa and country rules apply; funding cap and reimbursement conditions vary. Do not rely on historic scheme title or benefit amount."
+does_not_provide: "Overseas education funding, not domestic WFH employment."
+when_it_may_help: "If the goal is overseas study, verify current department name and open application window."
+rule_conversion_status: "not_structurable"
+eligibility_source: "dataset eligibility_criteria"
+unresolved_conditions: ["Community-specific eligibility", "foreign university admission", "academic, age, income and asset criteria under current notification"]
+manual_verification_required: true
